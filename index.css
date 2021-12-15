@@ -1,0 +1,138 @@
+*{
+    margin:0px;
+    padding:0px;
+}
+html {
+    scroll-behavior: smooth !important;
+}
+.topSection,.sliderSection,.downloadSection{
+    background-color: #ff4c68;
+}
+.contianer-fluid{
+    padding: 50px 201px 100px;
+}
+.navbar-collapse{
+    justify-content: space-around;
+}
+.navbar-brand,.nav-item>.nav-link{
+    color:white;
+
+}
+.navbar >a{
+    font-size: 40px;
+    font-weight: bold;
+
+}
+.topContentSection{
+    margin-top: 20px;
+}
+.rightTopsectionImage{
+    transform: rotate(15deg);
+    position: absolute;
+    right: 25%;
+    width: 20%;
+}
+.topSectionHeading h2{
+    font-size: 60px;
+    margin-top: 50px;
+    color:white;
+    line-height: 75px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.appleBtn{
+    background-color: black;
+    color: white;
+    border-radius: 5px;
+    padding: 10px 20px;
+}
+.androidBtn{
+    background-color: transparent;
+    color:white;
+    border-radius: 5px;
+    padding: 10px 20px;
+    border:2px solid white;
+}
+#features{
+    position: relative;
+}
+.appInfoSection{
+    padding: 150px;
+    text-align: center;
+}
+.appInfoSectionImg>img{
+    width: 70px;
+}
+.sliderSection{
+    text-align: center;
+    color:white;
+}
+.carouselPadding{
+    padding: 100px 200px;
+}
+.carouselHeading{
+    font-size: 40px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+.carouselImgContent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.carouselImgContent>img{
+  height: 100px;
+    border-radius: 50px;
+    margin: 0px 20px;
+}
+.carouselImgContent>p{
+    font-size:20px ;
+}
+.carouselImagesSection{
+    padding-bottom:100px ;
+}
+.carouselImagesSection>img{
+    width: 15%;
+}
+.plansSection{
+    text-align: center;
+    padding: 100px 200px;
+}
+.plansCardAlignment{
+    display: flex;
+    justify-content: space-around;
+}
+.btn.plansBtn{
+    background-color: black;
+    color: white;
+    border:none;
+
+}
+.card.cardMyStyle{
+padding:0px 0px 20px 0px;
+}
+.downloadSection{
+    color: white;
+    text-align: center;
+    padding: 100px 200px;
+}
+.downloadSection>.heading>p{
+    font-size: 60px;
+    font-family: 'Source Sans 3', sans-serif;
+}
+.downloadSectionBtn>button{
+    margin: 15px;
+}
+.tinDogFotter{
+    text-align: center;
+    padding: 100px 200px;
+}
+.tinDogFotter i{
+    font-size: 20px;
+    margin: 0px 5px 15px 5px;
+}
+@media  screen and (max-width:1000px){
+    .rightTopsectionImage
+    {
+        transform: rotate(0);
+        position: static;
+    }
+}
