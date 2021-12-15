@@ -30,7 +30,6 @@ html {
     transform: rotate(15deg);
     position: absolute;
     right: 25%;
-    width: 20%;
 }
 .topSectionHeading h2{
     font-size: 60px;
