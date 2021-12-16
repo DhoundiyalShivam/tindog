@@ -18,6 +18,9 @@ html {
     color:white;
 
 }
+.liItem{
+    margin-right: 20px;
+}
 .navbar >a{
     font-size: 40px;
     font-weight: bold;
@@ -42,6 +45,7 @@ html {
     background-color: black;
     color: white;
     border-radius: 5px;
+    border: 1px solid black;
     padding: 10px 20px;
 }
 .androidBtn{
@@ -50,9 +54,11 @@ html {
     border-radius: 5px;
     padding: 10px 20px;
     border:2px solid white;
+    margin-left: 20px;
 }
 #features{
     position: relative;
+    background-color: white;
 }
 .appInfoSection{
     padding: 150px;
@@ -107,6 +113,7 @@ html {
 }
 .card.cardMyStyle{
 padding:0px 0px 20px 0px;
+margin: 20px;
 }
 .downloadSection{
     color: white;
